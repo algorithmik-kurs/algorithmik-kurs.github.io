@@ -2,8 +2,8 @@ title: Domspatzen Kurs Algorithmik
 description: >
   Die Seite für die Kursmaterialien
 permalink: ':title/'
-baseurl: "/Algorithmik-Blog"
-url: "https://jonathan-treffler.de/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
+url: "https://algorithmik-kurs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Rene Grünbauer
