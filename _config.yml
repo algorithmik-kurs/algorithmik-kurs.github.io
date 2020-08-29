@@ -1,13 +1,12 @@
 title: Domspatzen Kurs Algorithmik
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Die Seite für die Kursmaterialien
 permalink: ':title/'
-baseurl: "/Algorithmik-Blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#site-twitter: #if your site has a twitter account, enter it here
+baseurl: "/Algorithmik-Blog"
+url: "https://jonathan-treffler.de/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
-author: Rene Grünbauer# add your name
+author: Rene Grünbauer
 
 # Disqus
 #discus-identifier: # add your discus identifier
