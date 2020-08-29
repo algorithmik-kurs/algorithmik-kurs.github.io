@@ -3,18 +3,13 @@ description: >
   Website zur Verteilung der Kursmaterialien
 permalink: ':title/'
 baseurl: "/"
-url: "https://algorithmik-kurs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://algorithmik-kurs.github.io/"
 
-# Author Settings
 author: Rene Grünbauer
-
-# Disqus
-#discus-identifier: # add your discus identifier
 
 # Tracker
 #analytics: # Google Analytics
 
-# Build Settings
 markdown: kramdown
 plugins:
   - jekyll-sitemap
