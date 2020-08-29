@@ -999,6 +999,9 @@ table tfoot td {
   font-size: 16px;
   margin: 0 0 10px;
 }
+.about a {
+  text-decoration: none;
+}
 
 .content-box {
   padding: 20px;
