@@ -1,6 +1,6 @@
 title: Domspatzen Kurs Algorithmik
 description: >
-  Die Seite für die Kursmaterialien
+  Website zur Verteilung der Kursmaterialien
 permalink: ':title/'
 baseurl: "/"
 url: "https://algorithmik-kurs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
