@@ -892,6 +892,10 @@ table tfoot td {
   background-color: #fff;
 }
 
+.article-page {
+    width: 100%;
+}
+
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
   color: #ffffff;
