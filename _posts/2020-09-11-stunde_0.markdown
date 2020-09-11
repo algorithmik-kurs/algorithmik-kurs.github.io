@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stunde 0 des Alogithmus Kurses"
+title: "Stunde 0 des Algorithmik Kurses"
 date: 2020-09-11 15:00:20 +0100
 description: Wilkommen im Algorithmik Kurs
 img: logo.png
