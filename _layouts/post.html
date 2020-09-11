@@ -26,7 +26,7 @@ layout: main
             <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
           {% endfor %}
         </div>
-        {% if page.authors %}Written by: {{page.authors}}{% endif %}
+        <p>{% if page.authors %}Written by: {{page.authors}}{% endif %}</p>
       </div>
     </div>
   </div>
