@@ -3,7 +3,7 @@ layout: post
 title: "Stunde 0 des Algorithmik Kurses"
 date: 2020-09-11 15:00:20 +0100
 description: Wilkommen im Algorithmik Kurs
-img: logo.png
+img: Stunde 0.png
 tags: introduction
 authors: Jonathan Treffler, Rene Grünbauer
 ---
