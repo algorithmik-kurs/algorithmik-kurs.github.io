@@ -23,7 +23,7 @@ layout: main
       <div class="downloads">
         {% for download in page.downloads %}
             <article class="post">
-                <a href="/downloads/{{ download }}">
+                <a href="/downloads/{{ download }}" download>
                     {% if download contains ".pdf" %}
                         <div class="post-thumbnail" style="background-image: url('/assets/img/document.png')"></div>
                     {% elsif download contains ".png" or download contains ".jpg" %}
