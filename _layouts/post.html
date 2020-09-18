@@ -25,7 +25,7 @@ layout: main
             <article class="post">
                 <a href="/downloads/{{ download }}" download>
                     {% if download contains ".pdf" %}
-                        <div class="post-thumbnail" style="background-image: url('/assets/img/document.svg')"></div>
+                        <div class="post-thumbnail" style="background-image: url('data:image/svg+xml;charset=UTF-8,{{ {% include_relative svg/document.svg %} }})"></div>
                     {% elsif download contains ".png" or download contains ".jpg" %}
                         <div class="post-thumbnail" style="background-image: url('/assets/img/image.png')"></div>
                     {% endif %}
