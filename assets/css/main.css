@@ -1424,6 +1424,10 @@ a.newer-posts:hover {
 .downloads .post .post-content .post-title a {
     font-size: 21px;
 }
+.downloads .post a {
+    color: black;
+    text-decoration: none;
+}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
