@@ -23,12 +23,14 @@ layout: main
       <div class="downloads">
         {% for download in page.downloads %}
             <article class="post">
-                <a class="post-thumbnail" style="background-image: url('/assets/img/Stunde 0.png')"></a>
-            
+                {% if download contains ".pdf" %}
+                    <a class="post-thumbnail" style="background-image: url('/assets/img/document.png')"></a>
+                {% elsif download contains ".png" or download contains ".jpg" %}
+                    <a class="post-thumbnail" style="background-image: url('/assets/img/image.png')"></a>
+                {% endif %}
+
                 <div class="post-content">
-                    <h2 class="post-title"><a href="/downloads/{{download}}">download</a></h2>
-                    <!--<span class="post-date">2020, Sep 11&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-                    <span class="post-words">1 minute read</span>-->
+                    <h2 class="post-title"><a href="/downloads/{{ download }}">{{ download }}</a></h2>
                 </div>
             </article>
         {% endfor %}
