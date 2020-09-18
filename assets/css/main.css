@@ -1421,7 +1421,6 @@ a.newer-posts:hover {
 }
 .downloads .download .download-thumbnail {
     width: 100%;
-    width: 30%;
     max-width: 100%;
     min-height: 11rem;
     -webkit-background-size: cover;
