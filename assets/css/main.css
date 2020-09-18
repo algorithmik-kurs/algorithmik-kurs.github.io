@@ -1152,12 +1152,6 @@ footer .copyright {
   background-position: 50% 50%;
 }
 
-.downloads .post-thumbnail {
-    -webkit-background-size: contain;
-          background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .post .post-content {
   padding: 1rem;
   width: 70%;
@@ -1427,6 +1421,15 @@ a.newer-posts:hover {
 }
 .downloads .download .download-thumbnail {
     width: 100%;
+    width: 30%;
+    max-width: 100%;
+    min-height: 11rem;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    -webkit-background-size: contain;
+          background-size: contain;
+    background-repeat: no-repeat;
 }
 .downloads .download .download-content {
     width: 100%;
