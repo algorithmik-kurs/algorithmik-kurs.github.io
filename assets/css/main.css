@@ -1440,10 +1440,11 @@ a.newer-posts:hover {
 .downloads .download .download-content {
     width: 100%;
 }
-.downloads .download .download-content .post-title {
+.downloads .download .download-content .download-title {
     margin: 0 0 5px;
+    text-align: center;
 }
-.downloads .download .download-content .post-title a {
+.downloads .download .download-content .download-title a {
     font-size: 21px;
 }
 .downloads .download a {
