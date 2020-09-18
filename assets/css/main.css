@@ -1402,6 +1402,12 @@ a.newer-posts:hover {
   }
 }
 
+.downloads {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .downloads .post {
     width: 48%;
     max-width: 100%;
