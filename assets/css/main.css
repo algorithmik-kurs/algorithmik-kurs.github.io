@@ -1152,6 +1152,11 @@ footer .copyright {
   background-position: 50% 50%;
 }
 
+.downloads .post-thumbnail {
+    -webkit-background-size: contain;
+          background-size: contain;
+}
+
 .post .post-content {
   padding: 1rem;
   width: 70%;
