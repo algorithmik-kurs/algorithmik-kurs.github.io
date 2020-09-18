@@ -2,7 +2,7 @@ title: Domspatzen Kurs Algorithmik
 description: >
   Website zur Verteilung der Kursmaterialien
 permalink: ':title/'
-baseurl: "/"
+baseurl: ""
 url: "https://algorithmik-kurs.github.io/"
 
 author: Rene Grünbauer

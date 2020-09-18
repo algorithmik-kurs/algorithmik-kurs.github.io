@@ -31,15 +31,15 @@ layout: main
       <div class="downloads">
         {% for download in page.downloads %}
             <article class="download">
-                <a href="/downloads/{{ download }}" download>
-                    {% if download contains ".pdf" %}
+                <a href="/downloads/{{ download.file }}" download>
+                    {% if download.file contains ".pdf" %}
                         <div class="download-thumbnail document-icon"></div>
-                    {% elsif download contains ".png" or download contains ".jpg" %}
+                    {% elsif download.file contains ".png" or download contains ".jpg" %}
                         <div class="download-thumbnail image-icon"></div>
                     {% endif %}
 
                     <div class="download-content">
-                        <h2 class="download-title">{{ download }}</h2>
+                        <h2 class="download-title">{{ download.title }}</h2>
                     </div>
                 </a>
             </article>
