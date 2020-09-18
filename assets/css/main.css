@@ -1376,6 +1376,56 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .post {
+    width: 48%;
+    max-width: 100%;
+    margin: 0 0.9% 1.5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post .post-thumbnail {
+    width: 100%;
+  }
+  .post .post-content {
+    width: 100%;
+  }
+  .post .post-content .post-title {
+    margin: 0 0 5px;
+  }
+  .post .post-content .post-title a {
+    font-size: 21px;
+  }
+}
+
+.downloads .post {
+    .post {
+    width: 48%;
+    max-width: 100%;
+    margin: 0 0.9% 1.5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post .post-thumbnail {
+    width: 100%;
+  }
+  .post .post-content {
+    width: 100%;
+  }
+  .post .post-content .post-title {
+    margin: 0 0 5px;
+  }
+  .post .post-content .post-title a {
+    font-size: 21px;
+  }
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .sidebar {
