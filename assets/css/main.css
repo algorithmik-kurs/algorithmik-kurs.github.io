@@ -1155,6 +1155,7 @@ footer .copyright {
 .downloads .post-thumbnail {
     -webkit-background-size: contain;
           background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .post .post-content {
