@@ -20,6 +20,19 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
+      <div class="downloads">
+        {% for download in page.downloads %}
+            <article class="post">
+                <a class="post-thumbnail" style="background-image: url('/assets/img/Stunde 0.png')"></a>
+            
+                <div class="post-content">
+                    <h2 class="post-title"><a href="/downloads/{{download}}">download</a></h2>
+                    <!--<span class="post-date">2020, Sep 11&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+                    <span class="post-words">1 minute read</span>-->
+                </div>
+            </article>
+        {% endfor %}
+      </div>
       <div class="page-footer">
         <div class="page-tag">
           {% for tag in page.tags %}
