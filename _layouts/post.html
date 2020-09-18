@@ -25,9 +25,9 @@ layout: main
             <article class="post">
                 <a href="/downloads/{{ download }}">
                     {% if download contains ".pdf" %}
-                        <a class="post-thumbnail" style="background-image: url('/assets/img/document.png')"></a>
+                        <div class="post-thumbnail" style="background-image: url('/assets/img/document.png')"></div>
                     {% elsif download contains ".png" or download contains ".jpg" %}
-                        <a class="post-thumbnail" style="background-image: url('/assets/img/image.png')"></a>
+                        <div class="post-thumbnail" style="background-image: url('/assets/img/image.png')"></div>
                     {% endif %}
 
                     <div class="post-content">
