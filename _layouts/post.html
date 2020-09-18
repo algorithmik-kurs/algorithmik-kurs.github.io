@@ -6,6 +6,9 @@ layout: main
     .document-icon {
         background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/document.svg %} ');
     }
+    .image-icon {
+        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/image.svg %} ');
+    }
   </style>
   <div class="page-content">
     {% if page.img %}
@@ -32,7 +35,7 @@ layout: main
                     {% if download contains ".pdf" %}
                         <div class="post-thumbnail document-icon"></div>
                     {% elsif download contains ".png" or download contains ".jpg" %}
-                        <div class="post-thumbnail" style="background-image: url('/assets/img/image.png')"></div>
+                        <div class="post-thumbnail image-icon"></div>
                     {% endif %}
 
                     <div class="post-content">
