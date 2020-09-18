@@ -1419,6 +1419,13 @@ a.newer-posts:hover {
         -ms-flex-direction: column;
             flex-direction: column;
 }
+.downloads .download:hover {
+      -webkit-transform: translate(0px, -2px);
+      -ms-transform: translate(0px, -2px);
+          transform: translate(0px, -2px);
+      -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+}
 .downloads .download .download-thumbnail {
     width: 100%;
     max-width: 100%;
