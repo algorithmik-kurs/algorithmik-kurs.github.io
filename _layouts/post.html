@@ -22,17 +22,19 @@ layout: main
       {{content | markdownify}}
       <div class="downloads">
         {% for download in page.downloads %}
-            <article class="post">
-                {% if download contains ".pdf" %}
-                    <a class="post-thumbnail" style="background-image: url('/assets/img/document.png')"></a>
-                {% elsif download contains ".png" or download contains ".jpg" %}
-                    <a class="post-thumbnail" style="background-image: url('/assets/img/image.png')"></a>
-                {% endif %}
+            <a href="/downloads/{{ download }}">
+                <article class="post">
+                    {% if download contains ".pdf" %}
+                        <a class="post-thumbnail" style="background-image: url('/assets/img/document.png')"></a>
+                    {% elsif download contains ".png" or download contains ".jpg" %}
+                        <a class="post-thumbnail" style="background-image: url('/assets/img/image.png')"></a>
+                    {% endif %}
 
-                <div class="post-content">
-                    <h2 class="post-title"><a href="/downloads/{{ download }}">{{ download }}</a></h2>
-                </div>
-            </article>
+                    <div class="post-content">
+                        <h2 class="post-title">{{ download }}</h2>
+                    </div>
+                </article>
+            </a>
         {% endfor %}
       </div>
       <div class="page-footer">
