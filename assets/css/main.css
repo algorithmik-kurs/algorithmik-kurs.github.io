@@ -1403,7 +1403,6 @@ a.newer-posts:hover {
 }
 
 .downloads .post {
-    .post {
     width: 48%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
@@ -1412,20 +1411,20 @@ a.newer-posts:hover {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .post .post-thumbnail {
-    width: 100%;
-  }
-  .post .post-content {
-    width: 100%;
-  }
-  .post .post-content .post-title {
-    margin: 0 0 5px;
-  }
-  .post .post-content .post-title a {
-    font-size: 21px;
-  }
 }
+.downloads .post .post-thumbnail {
+    width: 100%;
+}
+.downloads .post .post-content {
+    width: 100%;
+}
+.downloads .post .post-content .post-title {
+    margin: 0 0 5px;
+}
+.downloads .post .post-content .post-title a {
+    font-size: 21px;
+}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .sidebar {
