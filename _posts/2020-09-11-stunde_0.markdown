@@ -15,4 +15,4 @@ downloads:
     title: Aufgabe Prim und Kruskal
 ---
 
-Die Folien zur 0. Stunde gibt es [hier](https://algorithmik-kurs.github.io/downloads/Stunde_0.pdf)
+Die Folien zur 0. Stunde:
