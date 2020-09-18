@@ -30,16 +30,16 @@ layout: main
       {{content | markdownify}}
       <div class="downloads">
         {% for download in page.downloads %}
-            <article class="post">
+            <article class="download">
                 <a href="/downloads/{{ download }}" download>
                     {% if download contains ".pdf" %}
-                        <div class="post-thumbnail document-icon"></div>
+                        <div class="download-thumbnail document-icon"></div>
                     {% elsif download contains ".png" or download contains ".jpg" %}
-                        <div class="post-thumbnail image-icon"></div>
+                        <div class="download-thumbnail image-icon"></div>
                     {% endif %}
 
-                    <div class="post-content">
-                        <h2 class="post-title">{{ download }}</h2>
+                    <div class="download-content">
+                        <h2 class="download-title">{{ download }}</h2>
                     </div>
                 </a>
             </article>

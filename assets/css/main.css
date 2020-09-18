@@ -1407,8 +1407,15 @@ a.newer-posts:hover {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-.downloads .post {
+.downloads .download {
+    transition: all .3s ease;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+    box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+    min-height: 11rem;
+    display: flex;
+    align-items: stretch;
+    border-radius: 10px;
+    overflow: hidden;
     width: 48%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
@@ -1418,19 +1425,19 @@ a.newer-posts:hover {
         -ms-flex-direction: column;
             flex-direction: column;
 }
-.downloads .post .post-thumbnail {
+.downloads .download .download-thumbnail {
     width: 100%;
 }
-.downloads .post .post-content {
+.downloads .download .download-content {
     width: 100%;
 }
-.downloads .post .post-content .post-title {
+.downloads .download .download-content .post-title {
     margin: 0 0 5px;
 }
-.downloads .post .post-content .post-title a {
+.downloads .download .download-content .post-title a {
     font-size: 21px;
 }
-.downloads .post a {
+.downloads .download a {
     color: black;
     text-decoration: none;
 }
