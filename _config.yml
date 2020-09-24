@@ -15,23 +15,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-  - jekyll-pwa-plugin
 paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
-
-pwa:
-  enabled: true
-  sw_src_filepath: service-worker.js
-  sw_dest_filename: service-worker.js
-  dest_js_directory: assets/js
-  precache_recent_posts_num: 5
-  precache_glob_directory: /
-  precache_glob_patterns:
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores:
-    - sw-register.js
-    - "fonts/**/*"
-    - "downloads/**/*"
