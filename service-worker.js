@@ -1,6 +1,6 @@
 const CACHE = "pwabuilder-offline";
 
-const offlineFallbackPage = "index.html";
+const offlineFallbackPage = "/";
 
 // Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener("install", function (event) {
@@ -21,7 +21,7 @@ self.addEventListener("install", function (event) {
 
 // If any fetch fails, it will look for the request in the cache and serve it from there first
 self.addEventListener("fetch", function (event) {
-  if (event.request.method !== "GET") return;
+  if (event.request.method !== "GET" || event.request.url.indexOf('http') != 0) return;
 
   event.respondWith(
     fetch(event.request)
