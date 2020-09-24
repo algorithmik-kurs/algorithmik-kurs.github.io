@@ -21,6 +21,7 @@ self.addEventListener("install", function (event) {
 
 // If any fetch fails, it will look for the request in the cache and serve it from there first
 self.addEventListener("fetch", function (event) {
+  console.log(event);
   if (event.request.method !== "GET" || event.request.url.indexOf('http') != 0) return;
 
   event.respondWith(
