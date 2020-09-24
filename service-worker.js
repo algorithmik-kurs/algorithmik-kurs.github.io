@@ -1,6 +1,6 @@
 const CACHE = "pwabuilder-offline";
 
-const offlineFallbackPage = "/";
+const offlineFallbackPage = "/?standalone=true";
 
 // Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener("install", function (event) {
@@ -9,10 +9,6 @@ self.addEventListener("install", function (event) {
   event.waitUntil(
     caches.open(CACHE).then(function (cache) {
       console.log("Cached offline page during install");
-
-      if (offlineFallbackPage === "ToDo-replace-this-name.html") {
-        return cache.add(new Response("Update the value of the offlineFallbackPage constant in the serviceworker."));
-      }
 
       return cache.add(offlineFallbackPage);
     })
