@@ -4,7 +4,9 @@ title: "Stunde 1"
 date: 2020-09-25 9:00:20 +0100
 description: Stunde über das Rucksackproblem und den Dijkstra Algorithmus
 img: Stunde 1.png
-tags: Dijkstra
+tags:
+  - Dijkstra
+  - Rucksackproblem
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
   - file: 1/Folien.pdf
