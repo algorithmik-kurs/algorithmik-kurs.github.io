@@ -1436,6 +1436,7 @@ a.newer-posts:hover {
     -webkit-background-size: contain;
           background-size: contain;
     background-repeat: no-repeat;
+    transform: scale(0.9);
 }
 .downloads .download .download-content {
     width: 100%;
