@@ -12,6 +12,9 @@ layout: main
     .archive-icon {
         background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/archive.svg %} ');
     }
+    .pdf-icon {
+        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/pdf.svg %} ');
+    }
   </style>
   <div class="page-content">
     {% if page.img %}
@@ -35,10 +38,12 @@ layout: main
         {% for download in page.downloads %}
             <article class="download">
                 <a href="/downloads/{{ download.file }}" download>
-                    {% if download.file contains ".pdf" %}
+                    {% if download.file contains ".docx" %}
                         <div class="download-thumbnail document-icon"></div>
                     {% elsif download.file contains ".png" or download contains ".jpg" %}
                         <div class="download-thumbnail image-icon"></div>
+                    {% elsif download.file contains ".pdf" %}
+                        <div class="download-thumbnail pdf-icon"></div>
                     {% elsif download.file contains ".zip" or download contains ".tar" %}
                         <div class="download-thumbnail archive-icon"></div>
                     {% endif %}
