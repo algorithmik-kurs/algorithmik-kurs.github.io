@@ -17,6 +17,8 @@ downloads:
     title: Dijkstra Aufgaben
   - file: 1/Algorithmus Input.zip
     title: Algorithmus Input
+  - file: 1/Knapsack Template.zip
+    title: Knapsack Template
 ---
 
 Das Material zur Stunde am 25.09.
