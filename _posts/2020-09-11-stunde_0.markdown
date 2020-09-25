@@ -4,7 +4,9 @@ title: "Stunde 0 des Algorithmik Kurses"
 date: 2020-09-11 15:00:20 +0100
 description: Wilkommen im Algorithmik Kurs
 img: Stunde 0.png
-tags: introduction
+tags:
+  - Introduction
+  - Dijkstra
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
   - file: 0/Stunde_0.pdf
