@@ -4,13 +4,13 @@ layout: main
 <article class="article-page">
   <style>
     .document-icon {
-        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/document.svg | strip_newlines %} ');
+        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/document.svg | string | strip_newlines %} ');
     }
     .image-icon {
-        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/image.svg | strip_newlines %} ');
+        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/image.svg | string | strip_newlines %} ');
     }
     .archive-icon {
-        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/archive.svg | strip_newlines %} ');
+        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/archive.svg | string | strip_newlines %} ');
     }
   </style>
   <div class="page-content">
