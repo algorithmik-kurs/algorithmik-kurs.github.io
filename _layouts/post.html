@@ -36,7 +36,7 @@ layout: main
       {{content | markdownify}}
       <div class="downloads">
         {% for download in page.downloads %}
-            <article class="download">
+            <div class="download">
                 <a href="/downloads/{{ download.file }}" download>
                     {% if download.file contains ".docx" %}
                         <div class="download-thumbnail document-icon"></div>
@@ -52,7 +52,7 @@ layout: main
                         <h2 class="download-title">{{ download.title }}</h2>
                     </div>
                 </a>
-            </article>
+            </div>
         {% endfor %}
       </div>
       <div class="page-footer">
