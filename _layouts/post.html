@@ -9,6 +9,9 @@ layout: main
     .image-icon {
         background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/image.svg %} ');
     }
+    .archive-icon {
+        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/archive.svg %} ');
+    }
   </style>
   <div class="page-content">
     {% if page.img %}
@@ -36,6 +39,8 @@ layout: main
                         <div class="download-thumbnail document-icon"></div>
                     {% elsif download.file contains ".png" or download contains ".jpg" %}
                         <div class="download-thumbnail image-icon"></div>
+                    {% elsif download.file contains ".zip" or download contains ".tar" %}
+                        <div class="download-thumbnail archive-icon"></div>
                     {% endif %}
 
                     <div class="download-content">
