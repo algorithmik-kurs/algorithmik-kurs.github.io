@@ -1472,6 +1472,9 @@ a.newer-posts:hover {
 .downloads .download .download-button-container .download-button .download-icon {
     width: 100%;
     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
 }
 
 @media only screen and (max-width: 480px) {
