@@ -41,6 +41,12 @@ layout: main
         {% for download in page.downloads %}
             <div class="download">
                 <a href="/downloads/{{ download.file }}" download>
+                    <div class="download-button-container">
+                        <div class="download-button">
+                            <div class="download-icon"></div>
+                        </div>
+                    </div>
+
                     {% if download.file contains ".docx" or download.file contains ".txt" %}
                         <div class="download-thumbnail document-icon"></div>
                     {% elsif download.file contains ".png" or download.file contains ".jpg" %}
@@ -53,9 +59,6 @@ layout: main
 
                     <div class="download-content">
                         <h2 class="download-title">{{ download.title }}</h2>
-                    </div>
-                    <div class="download-button">
-                      <div class="download-icon"></div>
                     </div>
                 </a>
             </div>
