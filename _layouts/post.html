@@ -38,13 +38,13 @@ layout: main
         {% for download in page.downloads %}
             <div class="download">
                 <a href="/downloads/{{ download.file }}" download>
-                    {% if download.file contains ".docx" %}
+                    {% if download.file contains ".docx" or download.file contains ".txt" %}
                         <div class="download-thumbnail document-icon"></div>
-                    {% elsif download.file contains ".png" or download contains ".jpg" %}
+                    {% elsif download.file contains ".png" or download.file contains ".jpg" %}
                         <div class="download-thumbnail image-icon"></div>
                     {% elsif download.file contains ".pdf" %}
                         <div class="download-thumbnail pdf-icon"></div>
-                    {% elsif download.file contains ".zip" or download contains ".tar" %}
+                    {% elsif download.file contains ".zip" or download.file contains ".tar" %}
                         <div class="download-thumbnail archive-icon"></div>
                     {% endif %}
 
