@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Stunde 2: Programmierstunde"
+date: 2020-10-02 13:30:20 +0100
+description: Programmierstunde
+img: Stunde 2.png
+tags:
+  - Processing
+  - Programmieren
+  - Rucksackproblem
+authors: Jonathan Treffler, Rene Grünbauer
+downloads:
+  - file: 2/Aufgabe zum Rucksack Problem.pdf
+    title: Aufgabe zum Rucksack Problem
+  - file: 2/Grundlagen processing.pdf
+    title: Grundlagen Processing
+  - file: 2/Demodaten.txt
+    title: Demodaten
+---
+
+Das Material zur Programmierstunde am 02.10.
