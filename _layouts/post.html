@@ -40,27 +40,28 @@ layout: main
       <div class="downloads">
         {% for download in page.downloads %}
             <div class="download">
-                <a href="/downloads/{{ download.file }}" target="_blank">
+                <div>
                     <div class="download-button-container">
                         <a class="download-button" href="/downloads/{{ download.file }}" download>
                             <div class="download-icon"></div>
                         </a>
                     </div>
+                    <a href="/downloads/{{ download.file }}" target="_blank">
+                        {% if download.file contains ".docx" or download.file contains ".txt" %}
+                            <div class="download-thumbnail document-icon"></div>
+                        {% elsif download.file contains ".png" or download.file contains ".jpg" %}
+                            <div class="download-thumbnail image-icon"></div>
+                        {% elsif download.file contains ".pdf" %}
+                            <div class="download-thumbnail pdf-icon"></div>
+                        {% elsif download.file contains ".zip" or download.file contains ".tar" %}
+                            <div class="download-thumbnail archive-icon"></div>
+                        {% endif %}
 
-                    {% if download.file contains ".docx" or download.file contains ".txt" %}
-                        <div class="download-thumbnail document-icon"></div>
-                    {% elsif download.file contains ".png" or download.file contains ".jpg" %}
-                        <div class="download-thumbnail image-icon"></div>
-                    {% elsif download.file contains ".pdf" %}
-                        <div class="download-thumbnail pdf-icon"></div>
-                    {% elsif download.file contains ".zip" or download.file contains ".tar" %}
-                        <div class="download-thumbnail archive-icon"></div>
-                    {% endif %}
-
-                    <div class="download-content">
-                        <h2 class="download-title">{{ download.title }}</h2>
-                    </div>
-                </a>
+                        <div class="download-content">
+                            <h2 class="download-title">{{ download.title }}</h2>
+                        </div>
+                    </a>
+                </div>
             </div>
         {% endfor %}
       </div>
