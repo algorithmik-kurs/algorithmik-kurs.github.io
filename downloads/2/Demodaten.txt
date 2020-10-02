@@ -1,0 +1,16 @@
+15 25    #Anzahl Gegenstaende - Kapazitaet
+4 3      #Wert - Gewicht
+31 26
+3 4
+5 12
+7 7
+5 7
+29 25
+2 5
+10 7
+9 17
+6 8
+4 2
+7 11
+5 4
+9 13
