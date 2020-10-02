@@ -1305,12 +1305,15 @@ a.newer-posts:hover {
   padding: 5px 10px;
   margin-left: 5px;
   color: #6e82b3;
+  background-color: white;
   text-transform: uppercase;
   border: 1px solid #6e82b3;
+  transition: all .3s ease;
 }
 
 .page-footer .page-tag a:hover {
-  text-decoration: underline;
+  background-color: #6e82b3;
+  color: white;
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
