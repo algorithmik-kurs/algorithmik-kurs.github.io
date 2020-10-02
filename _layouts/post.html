@@ -40,11 +40,11 @@ layout: main
       <div class="downloads">
         {% for download in page.downloads %}
             <div class="download">
-                <a href="/downloads/{{ download.file }}" download>
+                <a href="/downloads/{{ download.file }}" target="_blank">
                     <div class="download-button-container">
-                        <div class="download-button">
+                        <a class="download-button" href="/downloads/{{ download.file }}" download>
                             <div class="download-icon"></div>
-                        </div>
+                        </a>
                     </div>
 
                     {% if download.file contains ".docx" or download.file contains ".txt" %}
