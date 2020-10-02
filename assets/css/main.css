@@ -1453,7 +1453,7 @@ a.newer-posts:hover {
     text-decoration: none;
 }
 .downloads .download .download-button-container {
-    position: realtive;
+    position: relative;
 }
 .downloads .download .download-button-container .download-button {
     opacity: 0;
