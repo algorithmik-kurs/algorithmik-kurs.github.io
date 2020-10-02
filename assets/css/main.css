@@ -1463,8 +1463,9 @@ a.newer-posts:hover {
     right: 10px;
     width: 30px;
     height: 30px;
-    background-color: #6e82b3;
+    background-color: #f0ae6e;
     border-radius: 100%;
+    z-index: 2;
 }
 .downloads .download:hover .download-button-container .download-button {
     opacity: 1;
@@ -1475,6 +1476,13 @@ a.newer-posts:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
+    background-color: #6e82b3;
+    transition: transform 0.35s, -webkit-transform 0.35s;
+    border-radius: 100%;
+}
+.downloads .download .download-button-container .download-button .download-icon:hover {
+    transform: scale3d(0.9, 0.9, 1);
+    -webkit-transform: scale3d(0.9, 0.9, 1);
 }
 
 @media only screen and (max-width: 480px) {
