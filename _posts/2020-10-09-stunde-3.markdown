@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Stunde 3: Programmierstunde"
+date: 2020-10-02 13:30:20 +0100
+description: Programmierstunde 2
+img: Stunde 2.png
+tags:
+  - Processing
+  - Programmieren
+  - Rucksackproblem
+authors: Jonathan Treffler, Rene Grünbauer
+downloads:
+  - file: 3/Bundeswettbewerb-Aufgabenblatt.pdf
+    title: Bundeswettbewerb Aufgabenblatt
+---
+
+Das Material zur 2. Programmierstunde am 09.10.
