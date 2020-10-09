@@ -15,3 +15,5 @@ downloads:
 ---
 
 Das Material zur 2. Programmierstunde am 09.10.
+
+Siehe: [Materialseite BWINF 39/1](https://bwinf.de/bundeswettbewerb/39/1/)
