@@ -18,6 +18,9 @@ layout: main
     .download-icon {
         background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/download.svg %} ');
     }
+    .code-icon {
+        background-image: url('data:image/svg+xml;charset=UTF-8, {% include svg/code.svg %} ');
+    }
   </style>
   <div class="page-content">
     {% if page.img %}
@@ -53,6 +56,8 @@ layout: main
                             <div class="download-thumbnail image-icon"></div>
                         {% elsif download.file contains ".pdf" %}
                             <div class="download-thumbnail pdf-icon"></div>
+                        {% elsif download.file contains ".pde" or download.file contains ".java" %}
+                            <div class="download-thumbnail code-icon"></div>
                         {% elsif download.file contains ".zip" or download.file contains ".tar" %}
                             <div class="download-thumbnail archive-icon"></div>
                         {% endif %}
