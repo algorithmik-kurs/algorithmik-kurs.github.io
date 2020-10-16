@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Stunde 4: Rekursion"
+date: 2020-10-16 13:30:20 +0100
+description: Stunde 4
+img: Stunde 4.png
+tags:
+  - Rekursion
+  - Programmieren
+authors: Jonathan Treffler, Rene Grünbauer
+downloads:
+  - file: 4/Aufgabe Guenstigster Weg durch Matrix.pdf
+    title: Günstigster Weg durch Matrix
+---
+
+Das Material zur 4 Stunde am 16.10.
