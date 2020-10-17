@@ -50,17 +50,12 @@ layout: main
                         </a>
                     </div>
                     <a href="/downloads/{{ download.file }}" target="_blank">
-                        {% if download.file contains ".docx" or download.file contains ".txt" %}
-                            <div class="download-thumbnail document-icon"></div>
-                        {% elsif download.file contains ".png" or download.file contains ".jpg" %}
-                            <div class="download-thumbnail image-icon"></div>
-                        {% elsif download.file contains ".pdf" %}
-                            <div class="download-thumbnail pdf-icon"></div>
-                        {% elsif download.file contains ".pde" or download.file contains ".java" %}
-                            <div class="download-thumbnail code-icon"></div>
-                        {% elsif download.file contains ".zip" or download.file contains ".tar" %}
-                            <div class="download-thumbnail archive-icon"></div>
-                        {% endif %}
+                        {% for mimetype in site.data.mimetypes %}
+                            {% if download.file contains mimetype.extension %}
+                                <div class="download-thumbnail {{ mimetype.icon }}-icon"></div>
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
 
                         <div class="download-content">
                             <h2 class="download-title">{{ download.title }}</h2>
