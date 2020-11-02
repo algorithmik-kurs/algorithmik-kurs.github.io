@@ -8,7 +8,7 @@ tags:
   - Introduction
   - Dijkstra
   - Minimaler Spannbaum
-author: [Jonathan Treffler, Rene Grünbauer]
+authors: Jonathan Treffler, Rene Grünbauer
 downloads:
   - file: 0/Stunde_0.pdf
     title: Präsentation
