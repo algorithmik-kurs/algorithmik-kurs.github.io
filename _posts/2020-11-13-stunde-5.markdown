@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Stunde 5: Referat und BWINF"
+date: 2020-11-13 13:30:20 +0100
+description: Stunde 5
+img: Stunde 4.png
+tags:
+  - Rekursion
+  - Programmieren
+  - BWINF
+authors: Jonathan Treffler, Rene Grünbauer
+downloads:
+  - file: 5/Wegkosten_Rekursion_Template.zip
+    title: Wegkosten Rekursion Template
+---
+
+Das Material zur 5. Stunde am 13.11.
