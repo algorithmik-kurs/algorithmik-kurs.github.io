@@ -9,6 +9,8 @@ tags:
   - BWINF
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
+  - file: 3/Bundeswettbewerb-Aufgabenblatt.pdf
+    title: BWINF Aufgabenblatt
   - file: 6/baulwuerfe.zip
     title: Baulwürfe Template
 ---
