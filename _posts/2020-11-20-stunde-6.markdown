@@ -3,7 +3,7 @@ layout: post
 title: "Stunde 6: BWINF"
 date: 2020-11-20 14:40:00 +0100
 description: Stunde 6
-img: Stunde 3.png
+img: Stunde 6.png
 tags:
   - Programmieren
   - BWINF
