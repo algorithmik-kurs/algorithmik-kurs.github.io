@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Stunde 6: BWINF"
+date: 2020-20-13 14:40:00 +0100
+description: Stunde 6
+img: Stunde 3.png
+tags:
+  - Programmieren
+  - BWINF
+authors: Jonathan Treffler, Rene Grünbauer
+downloads:
+  - file: 6/ballwuerfe.zip
+    title: Ballwürfe Template
+---
+
+Das Material zur Programmierstunde am 20.11.
