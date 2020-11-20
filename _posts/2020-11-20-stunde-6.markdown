@@ -15,4 +15,4 @@ downloads:
     title: Baulwürfe Template
 ---
 
-Das Material zur Programmierstunde am 20.11.
+Das Material zur freiwilligen Programmierstunde am 20.11.
