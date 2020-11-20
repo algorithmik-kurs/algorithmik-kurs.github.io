@@ -10,6 +10,8 @@ tags:
   - BWINF
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
+  - file: 3/Bundeswettbewerb-Aufgabenblatt.pdf
+    title: BWINF Aufgabenblatt
   - file: 5/Wegkosten_Rekursion_Template.zip
     title: Wegkosten Rekursion Template
 ---
