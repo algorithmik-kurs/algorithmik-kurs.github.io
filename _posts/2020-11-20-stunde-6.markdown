@@ -9,8 +9,8 @@ tags:
   - BWINF
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
-  - file: 6/ballwuerfe.zip
-    title: Ballwürfe Template
+  - file: 6/baulwuerfe.zip
+    title: Baulwürfe Template
 ---
 
 Das Material zur Programmierstunde am 20.11.
