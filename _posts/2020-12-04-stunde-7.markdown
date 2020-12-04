@@ -3,7 +3,7 @@ layout: post
 title: "Stunde 7: Covid Simulation"
 date: 2020-12-04 14:30:00 +0100
 description: Stunde 7
-img: 
+img: Stunde 7.jpg
 tags:
   - Programmieren
   - Covid
