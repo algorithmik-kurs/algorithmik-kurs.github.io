@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Stunde 7: Covid Simulation"
+date: 2020-12-04 14:30:00 +0100
+description: Stunde 7
+img: 
+tags:
+  - Programmieren
+  - Covid
+  - Simulation
+authors: Jonathan Treffler, Rene Grünbauer
+downloads:
+  - file: 7/covidSim.zip
+    title: Processing Covid Simulation Template
+---
+
+Das Material zur Stunde am 04.12.2020
