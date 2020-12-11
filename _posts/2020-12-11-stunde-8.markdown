@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Stunde 8: Matrizen"
+date: 2020-12-11 15:15:00 +0100
+description: Stunde 8
+img: 
+tags:
+  - Matrizen
+authors: Jonathan Treffler, Rene Grünbauer
+downloads:
+  - file: 8/QC_01_Matrizen.pdf
+    title: Folien Matrizen
+---
+
+Das Material zur Stunde am 11.12.2020
