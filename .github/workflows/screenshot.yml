@@ -27,7 +27,7 @@ jobs:
         run: rm screenshot.png
       
       - name: Capture Screenshot
-        uses: JonathanTreffler/screenshot-action@master
+        uses: JonathanTreffler/screenshot-action@main
         with:
           url: https://algorithmik.digital
           destination: ./screenshot.png
