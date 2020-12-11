@@ -27,12 +27,12 @@ jobs:
         with:
           source: https://algorithmik.digital/
           destination: screenshot.png
-          path: screenshot.png
           full-page: true
       
       - name: Commit files
         continue-on-error: true
         run: |
+          ls -la
           git pull
           git add screenshot.png
           git commit -m "Updated the Screenshot" -a
