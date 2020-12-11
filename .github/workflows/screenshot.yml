@@ -23,16 +23,16 @@ jobs:
         run: rm screenshot.png
       
       - name: Screenshot Website
-        uses: swinton/screenshot-website@v1.x
+        uses: "lannonbr/puppeteer-screenshot-action@1.0.0"
         with:
-          source: https://algorithmik.digital/
-          destination: screenshot.png
-          full-page: true
+          url: https://algorithmik.digital/
+          fullPage: true
       
       - name: Commit files
         continue-on-error: true
         run: |
           ls -la
+          ls -la ./screenshots
           git pull
           git add screenshot.png
           git commit -m "Updated the Screenshot" -a
