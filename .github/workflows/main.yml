@@ -1,0 +1,34 @@
+name: Screenshot
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commit files
+        continue-on-error: true
+        run: rm screenshot.png
+      
+      - name: Screenshot Website
+        uses: swinton/screenshot-website@v1.x
+        with:
+          source: https://algorithmik.digital/
+          destination: screenshot.png
+          full-page: true
+      
+      - name: Commit files
+        continue-on-error: true
+        run: |
+          git pull
+          git add screenshot.png
+          git commit -m "Updated the Screenshot" -a
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
