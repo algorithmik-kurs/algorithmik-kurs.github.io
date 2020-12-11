@@ -11,10 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '14'
-      
       - name: Set up git
         run: |
           git config --local user.email "actions@github.com"
@@ -30,13 +26,11 @@ jobs:
         continue-on-error: true
         run: rm screenshot.png
       
-      - name: Install capture-website-cli
-        run: |
-          npm install --global capture-website-cli
-      
-      - name: Screenshot Website
-        run: |
-          capture-website https://algorithmik.digital --output ./screenshot.png --full-page
+      - name: Capture Screenshot
+        uses: JonathanTreffler/screenshot-action@master
+        with:
+          url: https://algorithmik.digital
+          destination: ./screenshot.png
       
       - name: Commit files
         continue-on-error: true
