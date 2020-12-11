@@ -22,6 +22,10 @@ jobs:
           git config pull.rebase false
           git pull
       
+      # Sleep to ensure the github pages deploy is done, by the time the screenshot gets captured.
+      - name: Sleep 30 Seconds
+        run: sleep 30s
+      
       - name: Remove old Screenshot
         continue-on-error: true
         run: rm screenshot.png
