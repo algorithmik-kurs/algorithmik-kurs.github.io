@@ -9,7 +9,9 @@ jobs:
   screenshot:
     runs-on: ubuntu-latest
     steps:
-      - name: Commit files
+      - uses: actions/checkout@v2
+      
+      - name: Remove old Screenshot
         continue-on-error: true
         run: rm screenshot.png
       
