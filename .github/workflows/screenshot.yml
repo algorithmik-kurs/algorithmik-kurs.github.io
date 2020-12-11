@@ -32,7 +32,7 @@ jobs:
       
       - name: Screenshot Website
         run: |
-          capture-website --output ./screenshot.png --full-page
+          capture-website https://algorithmik.digital --output ./screenshot.png --full-page
       
       - name: Commit files
         continue-on-error: true
