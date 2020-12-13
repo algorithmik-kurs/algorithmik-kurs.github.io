@@ -3,7 +3,7 @@ layout: post
 title: "Stunde 8: Matrizen"
 date: 2020-12-11 15:15:00 +0100
 description: Stunde 8
-img: 
+img: Stunde 8.png
 tags:
   - Matrizen
 authors: Jonathan Treffler, Rene Grünbauer
