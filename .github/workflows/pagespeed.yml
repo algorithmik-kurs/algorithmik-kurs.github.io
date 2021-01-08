@@ -16,6 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
 
           # Options
           template: classic
