@@ -12,7 +12,7 @@ jobs:
       - name: Sleep 30 seconds
         run: sleep 30s
       
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
