@@ -14,6 +14,10 @@ downloads:
     title: BWINF Aufgabenblatt
   - file: 5/Wegkosten_Rekursion_Template.zip
     title: Wegkosten Rekursion Template
+  - file: 5/Rekursion.pdf
+    title: Rekursion Referat
+  - file: 5/Rekursion.pptx
+    title: Rekursion Referat
 ---
 
 Das Material zur 5. Stunde am 13.11.
