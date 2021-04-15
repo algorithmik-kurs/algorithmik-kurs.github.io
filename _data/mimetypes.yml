@@ -8,6 +8,8 @@
   icon: image
 - extension: .docx
   icon: document
+- extension: .pptx
+  icon: document
 - extension: .txt
   icon: document
 - extension: .pdf
