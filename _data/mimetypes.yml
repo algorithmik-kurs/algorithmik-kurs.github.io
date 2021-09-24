@@ -23,5 +23,5 @@ types:
     icon: archive
   - extension: .tar
     icon: archive
-
-
+  - extension: .h
+    icon: code
