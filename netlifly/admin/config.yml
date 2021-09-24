@@ -54,3 +54,19 @@ collections:
         fields:
           - { label: "Name", name: "title", widget: "string" }
           - { label: "Datei", name: "file", widget: "file", media_folder: "/downloads/", media_library: {allow_multiple: false}}
+
+  - name: 'settings'
+    label: 'Einstellungen'
+    editor:
+      preview: false
+    files:
+      - label: 'Mimetypes'
+        name: 'mimetypes'
+        file: '_data/mimetypes.yml'
+        fields:
+          - label: 'Mimetypes'
+            name: 'types'
+            widget: 'list'
+            fields:
+              - { label: Extension, name: extension, widget: string }
+              - { label: Icon, name: icon, widget: string }
