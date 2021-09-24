@@ -8,9 +8,9 @@ tags:
   - Matrizen
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
-  - file: 8/QC_01_Matrizen.pdf
+  - file: /downloads/Stunde 8 QC_01_Matrizen.pdf
     title: Folien Matrizen
-  - file: 8/Uebung.pdf
+  - file: /downloads/Stunde 8 Uebung.pdf
     title: Übung
 ---
 

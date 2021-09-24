@@ -10,11 +10,11 @@ tags:
   - Minimaler Spannbaum
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
-  - file: 0/Stunde_0.pdf
+  - file: /downloads/Stunde 0 Präsentation.pdf
     title: Präsentation
-  - file: 0/Dijkstra.pdf
+  - file: /downloads/Stunde 0 Dijkstra.pdf
     title: Dijkstra Algorithmus
-  - file: 0/Prim_Kruskal.pdf
+  - file: /downloads/Stunde 0 Prim_Kruskal.pdf
     title: Aufgabe Prim und Kruskal
 ---
 

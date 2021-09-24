@@ -10,11 +10,11 @@ tags:
   - Rucksackproblem
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
-  - file: 2/Aufgabe zum Rucksack Problem.pdf
+  - file: /downloads/Stunde 2 Aufgabe zum Rucksack Problem.pdf
     title: Aufgabe zum Rucksack Problem
-  - file: 2/Grundlagen processing.pdf
+  - file: /downloads/Stunde 2 Grundlagen processing.pdf
     title: Grundlagen Processing
-  - file: 2/Demodaten.txt
+  - file: /downloads/Stunde 2 Demodaten.txt
     title: Demodaten
 ---
 

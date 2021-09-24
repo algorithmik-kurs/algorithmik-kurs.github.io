@@ -10,7 +10,7 @@ tags:
   - Rucksackproblem
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
-  - file: 3/Bundeswettbewerb-Aufgabenblatt.pdf
+  - file: /downloads/Stunde 3 Bundeswettbewerb-Aufgabenblatt.pdf
     title: BWINF Aufgabenblatt
 ---
 

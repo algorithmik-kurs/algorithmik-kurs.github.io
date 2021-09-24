@@ -10,7 +10,7 @@ tags:
   - Simulation
 authors: Jonathan Treffler, Rene Grünbauer
 downloads:
-  - file: 7/covidSim.zip
+  - file: /downloads/Stunde 7 covidSim.zip
     title: Processing Covid Simulation Template
 ---
 
