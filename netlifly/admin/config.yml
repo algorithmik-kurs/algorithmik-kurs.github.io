@@ -65,6 +65,7 @@ collections:
         file: '_data/mimetypes.yml'
         fields:
           - label: 'Mimetypes'
+            label_singular: "Mimetype"
             name: 'types'
             widget: 'list'
             fields:
