@@ -50,7 +50,7 @@ layout: main
                         </a>
                     </div>
                     <a href="{{ download.file }}" target="_blank">
-                        {% for mimetype in site.data.mimetypes %}
+                        {% for mimetype in site.data.mimetypes.types %}
                             {% if download.file contains mimetype.extension %}
                                 <div class="download-thumbnail {{ mimetype.icon }}-icon"></div>
                                 {% break %}
