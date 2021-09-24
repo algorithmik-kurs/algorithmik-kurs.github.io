@@ -1,14 +1,10 @@
 ---
+img: /assets/img/Stunde 0.png
+authors: Jonathan Treffler, Rene Grünbauer
 layout: post
 title: "Stunde 0: Minimaler Spannbaum"
 date: 2020-09-11 15:00:20 +0100
-description: Wilkommen im Algorithmik Kurs
-img: /assets/img/Stunde 0.png
-tags:
-  - Introduction
-  - Dijkstra
-  - Minimaler Spannbaum
-authors: Jonathan Treffler, Rene Grünbauer
+description: Wilkommen im Algorithmik Kurs :)
 downloads:
   - file: /downloads/Stunde 0 Präsentation.pdf
     title: Präsentation
@@ -16,6 +12,10 @@ downloads:
     title: Dijkstra Algorithmus
   - file: /downloads/Stunde 0 Prim_Kruskal.pdf
     title: Aufgabe Prim und Kruskal
+tags:
+  - Introduction
+  - Dijkstra
+  - Minimaler Spannbaum
 ---
 
 Die Folien zur 0. Stunde:
