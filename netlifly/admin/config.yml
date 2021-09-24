@@ -35,6 +35,10 @@ collections:
             multiple: false
       - { label: 'Datum', name: 'date', widget: 'datetime' }
       - { label: 'Beschreibung', name: 'description', widget: 'string', required: false }
+      - label: "Tags"
+        label_singular: "Tag"
+        name: "tags"
+        widget: "list"
       - { label: 'Text', name: 'body', widget: 'markdown' }
       - label: "Downloads"
         label_singular: "Download"
