@@ -25,6 +25,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Text', name: 'body', widget: 'markdown' }
       - label: "Downloads"
+        label_singular: "Download"
         name: "downloads"
         widget: "list"
         fields:
