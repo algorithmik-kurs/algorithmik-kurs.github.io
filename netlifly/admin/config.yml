@@ -29,10 +29,12 @@ collections:
         allow_multiple: false
         media_folder: "/assets/img/"
         default: "/assets/img/logo.png"
+        required: false
         media_library:
           config:
             multiple: false
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Datum', name: 'date', widget: 'datetime' }
+      - { label: 'Beschreibung', name: 'description', widget: 'string', required: false }
       - { label: 'Text', name: 'body', widget: 'markdown' }
       - label: "Downloads"
         label_singular: "Download"
