@@ -39,10 +39,12 @@ collections:
         label_singular: "Tag"
         name: "tags"
         widget: "list"
+        required: false
         hint: "Comma seperated"
       - label: "Autoren"
         name: "authors"
         widget: "string"
+        default: "René Grünbauer"
         hint: "Comma seperated"
       - { label: 'Text', name: 'body', widget: 'markdown' }
       - label: "Downloads"
