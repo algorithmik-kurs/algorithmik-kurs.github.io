@@ -60,6 +60,24 @@ collections:
     editor:
       preview: false
     files:
+      - label: 'Seiteneigenschaften'
+        name: 'config'
+        file: '_config.yml'
+        fields:
+          - label: 'Titel'
+            name: 'title'
+            widget: 'string'
+          - label: 'Beschreibung'
+            name: 'description'
+            widget: 'string'
+          - label: 'Domain'
+            name: 'url'
+            widget: 'string'
+          - label: 'Posts pro Seite'
+            name: 'paginate'
+            widget: 'number'
+            value_type: 'int'
+
       - label: 'Mimetypes'
         name: 'mimetypes'
         file: '_data/mimetypes.yml'
