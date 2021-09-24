@@ -1,0 +1,12 @@
+icon_breite: 50
+padding: 3
+gesammt_breite: 56
+margin: 4
+breite_mit_margin: 64
+
+left_x_field_1: 200 - 32 - 53 = 115
+left_x_icon_1: 200 - 32 - 50 = 118
+left_x_field_2: 200 - (56 / 2) = 172
+left_x_icon_2: 200 - (50 / 2) = 175
+left_x_field_2: 200 + 32 = 232
+left_x_icon_2: 200 + 32 + 3 = 235
