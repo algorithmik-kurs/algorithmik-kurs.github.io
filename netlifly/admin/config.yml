@@ -23,4 +23,10 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Text', name: 'body', widget: 'markdown' }
+      - label: "Downloads"
+        name: "downloads"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "title", widget: "string" }
+          - { label: "Datei", name: "file", widget: "file", media_library: {media_folder: "/downloads/", allow_multiple: false}}
