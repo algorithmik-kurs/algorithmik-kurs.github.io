@@ -27,6 +27,7 @@ collections:
         widget: "image"
         choose_url: true
         allow_multiple: false
+        media_folder: "/assets/img/"
         default: "/assets/img/logo.png"
         media_library:
           config:
