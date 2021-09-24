@@ -29,4 +29,4 @@ collections:
         widget: "list"
         fields:
           - { label: "Name", name: "title", widget: "string" }
-          - { label: "Datei", name: "file", widget: "file", media_library: {media_folder: "/downloads/", allow_multiple: false}}
+          - { label: "Datei", name: "file", widget: "file", media_library: {media_folder: "/downloads/", config: {media_folder: "/downloads/"}, allow_multiple: false}}
