@@ -3,7 +3,7 @@ layout: post
 title: "Stunde 1: Rucksackproblem"
 date: 2020-09-25 9:00:20 +0100
 description: Stunde über das Rucksackproblem und den Dijkstra Algorithmus
-img: Stunde 1.png
+img: /assets/img/Stunde 1.png
 tags:
   - Dijkstra
   - Rucksackproblem

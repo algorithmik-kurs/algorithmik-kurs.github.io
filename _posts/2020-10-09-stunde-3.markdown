@@ -3,7 +3,7 @@ layout: post
 title: "Stunde 3: Programmierstunde"
 date: 2020-10-09 13:30:20 +0100
 description: Programmierstunde 2
-img: Stunde 3.png
+img: /assets/img/Stunde 3.png
 tags:
   - Processing
   - Programmieren

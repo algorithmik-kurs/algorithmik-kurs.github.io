@@ -3,7 +3,7 @@ layout: post
 title: "Stunde 0: Minimaler Spannbaum"
 date: 2020-09-11 15:00:20 +0100
 description: Wilkommen im Algorithmik Kurs
-img: Stunde 0.png
+img: /assets/img/Stunde 0.png
 tags:
   - Introduction
   - Dijkstra
