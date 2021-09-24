@@ -22,6 +22,15 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - label: "Thumbnail"
+        name: "img"
+        widget: "image"
+        choose_url: true
+        allow_multiple: false
+        default: "/assets/img/logo.png"
+        media_library:
+          config:
+            multiple: false
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Text', name: 'body', widget: 'markdown' }
       - label: "Downloads"
