@@ -26,4 +26,4 @@ jobs:
           config_timezone: Europe/Berlin
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_url: https://algorithmik.digital/
+          plugin_pagespeed_url: https://algorithmik.online/
