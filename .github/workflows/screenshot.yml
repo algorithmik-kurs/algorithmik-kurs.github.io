@@ -33,7 +33,7 @@ jobs:
       - name: Capture Screenshot
         uses: JonathanTreffler/full-website-screenshot-action@v1.0
         with:
-          url: https://algorithmik.digital
+          url: https://algorithmik.online
           destination: ./screenshot.png
       
       - name: Commit files
