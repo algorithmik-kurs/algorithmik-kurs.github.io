@@ -49,7 +49,7 @@ layout: main
                             <div class="download-icon"></div>
                         </a>
                     </div>
-                    <a href="{{ download.file }}" target="_blank">
+                    <a href="{{ download.file }}" target="_blank" rel="noopener noreferrer">
                         {% for mimetype in site.data.mimetypes.types %}
                             {% if download.file contains mimetype.extension %}
                                 <div class="download-thumbnail {{ mimetype.icon }}-icon"></div>
