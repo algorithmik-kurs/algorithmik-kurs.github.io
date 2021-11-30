@@ -1,0 +1,20 @@
+ports:
+  - port: 4000
+    onOpen: open-browser
+
+tasks:
+  - name: Dev Server
+    init: |
+      bundle install
+    command: |
+      jekyll serve
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: false
